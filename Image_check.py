@@ -13,7 +13,7 @@ try:
         if numbers[0] != 255 and numbers[1] != 216 and numbers[2] != 255:
             print('This is not a jpeg file')
         else:
-            print('This is not a jpeg file')
+            print('This is a jpeg file')
                 
 except FileNotFoundError:
     print('Error: File not found...')
